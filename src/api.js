@@ -1,6 +1,6 @@
 // Point this at wherever the backend folder sits under htdocs, e.g.
 // http://localhost/etims-demo/backend/api
-const API_BASE = 'https://restaurant-etims.freedev.app/backend/api';
+const API_BASE = 'https://backend-restaurant-etims.onrender.com/api';
 
 export async function sendInvoice(payload) {
   const res = await fetch(`${API_BASE}/send_invoice.php`, {
